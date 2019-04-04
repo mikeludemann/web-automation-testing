@@ -1,0 +1,44 @@
+{
+  "name": "web-automation-testing",
+  "version": "1.0.0",
+  "description": "Web Automation Testing",
+  "main": "index.js",
+  "scripts": {
+    "web-test": "node src/tests/web/googleSearch.js",
+    "unit-test": "mocha src/tests/unit/mochaRunner.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/web-automation-testing.git"
+  },
+  "keywords": [
+    "Testing",
+    "Selenium",
+    "JavaScript",
+    "Web Automation",
+    "Browser",
+    "Testrunner",
+    "Frameworks",
+    "Mocha",
+    "Chai",
+    "E2E",
+    "Unit-Test"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/web-automation-testing/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/web-automation-testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.46.0",
+    "geckodriver": "^1.16.1",
+    "log4js": "^4.1.0",
+    "mocha": "^6.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {
+    "webdriverio": "^5.7.8"
+  }
+}
